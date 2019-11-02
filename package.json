@@ -1,18 +1,19 @@
 {
-  "name": "typescript-module-template",
+  "name": "typescript-repo-template",
   "version": "1.0.0",
-  "description": "A template for typescript classes",
+  "description": "A template for typescript class repositories",
   "main": "index.js",
   "directories": {
     "lib": "lib",
     "test": "test"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "precommit": "pretty-quick --staged",
-    "prepare": "tsc",
-    "build": "tsc",
-    "start": "ts-node src/index.ts"
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "precommit": "pretty-quick --staged",
+      "prepare": "tsc",
+      "build": "tsc",
+      "start": "ts-node src/index.ts"
   },
   "repository": {
     "type": "git",
@@ -20,7 +21,7 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "Apache-2.0",
   "bugs": {
     "url": "https://github.com/JJ/typescript-module-template/issues"
   },
