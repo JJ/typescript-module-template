@@ -8,11 +8,11 @@
     "test": "test"
   },
   "scripts": {
-      "test": "echo \"Error: no test specified\" && exit 1",
-      "precommit": "pretty-quick --staged",
-      "prepare": "tsc",
-      "build": "tsc",
-      "test-only": "jest"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "precommit": "pretty-quick --staged",
+    "prepare": "tsc",
+    "build": "tsc",
+    "test-only": "jest"
   },
   "repository": {
     "type": "git",
