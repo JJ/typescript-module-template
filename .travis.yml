@@ -1,7 +1,7 @@
 language: nodejs
 
 before_script:
-  - npm run build
+  - npm i
 
 script:
   - npm run test-only
